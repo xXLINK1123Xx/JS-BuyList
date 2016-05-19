@@ -1,3 +1,225 @@
-h1 {
-    color: red;
+body {
+	background-color: #DADADA;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.content {
+	padding: 2.5%;
+}
+
+.content-block{
+	border: 1px;
+}
+
+.container{
+	width: 100%;
+	border: 1px solid rgba(34,36,38,.15);
+	border-radius: 5px;
+}
+
+.container.no-border{
+	border: none;
+}
+
+h3{
+	margin: 0px;
+}
+
+input{
+    width: 100%;
+	border: 1px solid rgba(34,36,38,.15);
+	border-radius: 5px;
+    padding: 9.5px 14px;
+    font-size:15px;
+}
+
+.tem-name-field{
+    border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	border-right-color: transparent !important;
+}
+
+.item-add{
+	float: right;
+	border: 1px solid rgba(34,36,38,.15);
+	border-radius: 5px;
+    padding: 9.5px 14px;
+    width: 100px;
+    border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	border-left-color: transparent !important;
+	background-color: #2185D0;
+	color: #fff;
+    font-weight: bold;
+    font-size: 15px;	
+}
+
+
+button{	
+    box-shadow: 0 -3px 0 0 rgba(34,36,38,.15) inset;
+    border: 1px solid rgba(34,36,38,.15);
+	border-radius: 5px;
+	padding: 7px 7px 8.5px;
+	font-size: 10px; 
+}
+
+button.circle{
+	border-radius: 50%;
+	width:30px;
+}
+
+button.inc{
+	background-color: #21BA45;
+	color: #fff;
+
+}
+
+button.dec{
+	background-color: #ca1010;
+	color: #fff;
+}
+
+button.delete{
+	background-color: #ca1010;
+	color: #fff;
+	width:30px;
+}
+
+.item-name{
+    display: block;
+    overflow: hidden;
+}
+
+.main-sized{
+	width: 67.75% !important;
+	float: left;
+	padding-right: 1%;
+}
+
+.segment{
+	border: 1px solid rgba(34,36,38,.15);
+	padding: 14px;
+	background-color: #FFF;
+}
+
+.side-sized{
+	width: 30.25% !important;
+	padding-left: 1%;
+}
+
+.form-container {
+	float: left;
+}
+
+.info {
+}
+
+.todo {
+	display: none;
+}
+
+.cont {
+	min-height: 100px !important;
+}
+
+.entry{
+	/*display: inline-block;/**/
+	float: left;
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.entry-name{
+	width: 25% !important;
+	align-items: left;
+	justify-content: left;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+.add-buttons{
+	width: 37.5% !important;
+	align-content: center;
+}
+
+.controll-buttons{
+	width: 37.5% !important;
+	align-content: right;
+}
+
+.unbuy-buttons{
+	width: 75% !important;
+	align-content: right;
+}
+
+.label{
+	margin: 3px;
+	border: 0 solid transparent;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #E8E8E8;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.unbuy{
+
+padding: 8px 12px;
+font-size: 15px;
+}
+
+.label-text{
+	font-size: 16px;
+}
+
+.count
+{
+	padding:8px 10px;
+}
+
+.delete{
+	margin-left: 3px;
+	padding: 10px 12px;	
+}
+
+.badge{
+	border-radius: 50%;
+	background-color: #F2711C !important;
+	border-color: #F2711C !important;
+	color: #FFF !important;
+	padding: 5px 8px;
+	margin-left: 3px;
+	font-size: 12px;
+}
+
+.list-entry{
+	display: inline-flex;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.strike .label-text {
+	text-decoration: line-through;
+}
+
+.hidden {
+	display: none;
+}
+
+.bought
+{
+padding: 8px 12px;
+font-size: 15px;
+}
+
+.lasts-list
+{
+
 }
